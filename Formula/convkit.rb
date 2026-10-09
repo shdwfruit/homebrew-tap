@@ -1,25 +1,25 @@
 class Convkit < Formula
   desc "One command for everyday file conversion, offline"
   homepage "https://github.com/shdwfruit/convkit"
-  version "0.3.1"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/shdwfruit/convkit/releases/download/v0.3.1/convkit-aarch64-apple-darwin.tar.xz"
-      sha256 "6a156164a9874b18c283db65f7f77f66fb104bd708611f1be7a74000036fc8d7"
+      url "https://github.com/shdwfruit/convkit/releases/download/v0.4.0/convkit-aarch64-apple-darwin.tar.xz"
+      sha256 "297367f63afffe0bca838c6cf14db5bff2a4e9aaa3f14fc9fd87615074dbf652"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shdwfruit/convkit/releases/download/v0.3.1/convkit-x86_64-apple-darwin.tar.xz"
-      sha256 "7d3abff32fbb9889fda808c7b3fa6935b6050f977bbb522341cfc4b57869673c"
+      url "https://github.com/shdwfruit/convkit/releases/download/v0.4.0/convkit-x86_64-apple-darwin.tar.xz"
+      sha256 "b3d0d70e3436b014fc588263aad9812c954bce7ccaeafab62e4dff39f602753f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/shdwfruit/convkit/releases/download/v0.3.1/convkit-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "314c63aa62ead2d9762eb93850eb66e5094ba5ff48270926800a4b97c1d31cd6"
+      url "https://github.com/shdwfruit/convkit/releases/download/v0.4.0/convkit-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "82ccb4022609c51e7661c4a968e5dd01883f8ff4d631f1af360dd7e1e0734351"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shdwfruit/convkit/releases/download/v0.3.1/convkit-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "65a32ef72dcf0fed449dc568b516f319b383307b85bc9294712e34aa156a5d70"
+      url "https://github.com/shdwfruit/convkit/releases/download/v0.4.0/convkit-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "2bbf28fc6b72df6e9e46ff9101e798f8c6b290621b38c6810d817c19efaeeccf"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
